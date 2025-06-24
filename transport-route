@@ -1,0 +1,21 @@
+# 1. Mergi în folderul aplicației tale
+cd cale/catre/transport-frontend
+
+# 2. Inițializezi un repository Git local
+git init
+
+# 3. Adaugi toate fișierele în Git
+git add .
+
+# 4. Creezi un commit (o salvare)
+git commit -m "Primul commit"
+
+# 5. Setezi ramura principală ca 'main'
+git branch -M main
+
+# 6. Adaugi repo-ul GitHub ca destinație (înlocuiește linkul cu al tău)
+git remote add origin https://github.com/USERNAME/transport-frontend.git
+
+# 7. Trimiți fișierele pe GitHub
+git push -u origin main
+
